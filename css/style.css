@@ -867,6 +867,13 @@ video {
   }
 }
 
+@media (max-width: 640px) {
+  .max-\[640px\]\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:text-blue-800 {
     --tw-text-opacity: 1;
