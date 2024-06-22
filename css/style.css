@@ -816,16 +816,8 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-tertiary {
-  text-decoration-color: #f38fcb;
-}
-
 .decoration-primary {
   text-decoration-color: #ffe3f4;
-}
-
-.decoration-secondary {
-  text-decoration-color: #fff0f5;
 }
 
 .backdrop-blur-3xl {
@@ -850,19 +842,9 @@ video {
   background-color: rgb(46 46 46 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 227 244 / var(--tw-bg-opacity));
-}
-
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(255 227 244 / var(--tw-text-opacity));
-}
-
-.hover\:text-tertiary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(243 143 203 / var(--tw-text-opacity));
 }
 
 @media (max-width: 896px) {
