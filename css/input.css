@@ -4,6 +4,6 @@
 
 @layer components{
     .resources-item{
-        @apply bg-surfaceContainer p-4 rounded-lg my-3 grid grid-cols-3;
+        @apply bg-surfaceContainer p-4 rounded-lg my-6 grid grid-cols-3;
     }
 }
