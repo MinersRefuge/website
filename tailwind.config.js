@@ -18,7 +18,7 @@ module.exports = {
         'onPrimary':'#F2F2F2',//Text on Primary Color
         'secondary':'#fff0f5',//Yada Yada...
         'onSecondary':'#1A1A1A',
-        'tertiary':'#E34234',
+        'tertiary':'#f38fcb',
         //'onTertiary':'#F2F2F2',
       },
       fontFamily: {
