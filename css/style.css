@@ -645,6 +645,10 @@ video {
   max-width: 56rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -835,4 +839,61 @@ video {
 .hover\:text-tertiary:hover {
   --tw-text-opacity: 1;
   color: rgb(243 143 203 / var(--tw-text-opacity));
+}
+
+@media (max-width: 896px) {
+  .max-\[896px\]\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .max-\[896px\]\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .max-\[896px\]\:hidden {
+    display: none;
+  }
+
+  .max-\[896px\]\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .max-\[896px\]\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-blue-800 {
+    --tw-text-opacity: 1;
+    color: rgb(30 64 175 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 896px) {
+  .min-\[896px\]\:grid {
+    display: grid;
+  }
+
+  .min-\[896px\]\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-blue-800 {
+    --tw-text-opacity: 1;
+    color: rgb(30 64 175 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:text-blue-800 {
+    --tw-text-opacity: 1;
+    color: rgb(30 64 175 / var(--tw-text-opacity));
+  }
 }
