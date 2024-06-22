@@ -601,16 +601,16 @@ video {
   margin-left: auto;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mr-auto {
   margin-right: auto;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .flex {
@@ -698,14 +698,14 @@ video {
   border-color: rgb(255 227 244 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 240 245 / var(--tw-bg-opacity));
 }
 
 .bg-surface {
@@ -716,6 +716,27 @@ video {
 .bg-surfaceContainer {
   --tw-bg-opacity: 1;
   background-color: rgb(30 30 30 / var(--tw-bg-opacity));
+}
+
+.bg-surfaceInverted {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 46 46 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-axolotl-banner {
+  background-image: url('../img/axolotlBanner.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .p-2 {
@@ -732,10 +753,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-2xl {
@@ -782,9 +799,9 @@ video {
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
 
-.text-surface {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -803,6 +820,11 @@ video {
 .hover\:bg-surfaceInverted:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(46 46 46 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover {

@@ -24,6 +24,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'axolotl-banner': "url('../img/axolotlBanner.png')",
+      },
     },
   },
   plugins: [],
